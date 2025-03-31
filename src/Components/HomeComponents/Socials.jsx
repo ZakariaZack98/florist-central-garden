@@ -4,7 +4,7 @@ import { FaEnvelope, FaFacebookSquare, FaInstagram, FaLinkedin, FaTiktok, FaTwit
 const Socials = () => {
   return (
     <div className='container mx-auto'>
-      <div className="flex justify-between py-2 font-poppins">
+      <div className="flex justify-between py-2 font-poppins translate-y-3">
         <div className="icons flex gap-x-2">
           {
             [FaFacebookSquare, FaTwitter, FaInstagram, FaTiktok, FaLinkedin].map((Icon, idx) => (
