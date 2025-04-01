@@ -31,21 +31,19 @@ const Why = () => {
 
   // Animation variants for the image
   const imageVariants = {
-    hidden: { opacity: 1, y: 400, scale: 0.8 }, 
+    hidden: { rotate: -30}, 
     visible: {
-      opacity: 1,
-      y: 200,
-      scale: 1.2,
-      transition: { duration: 1.2, ease: 'easeOut' }, 
+      rotate: 0,
+      transition: { duration: 0.8, ease: 'linear' }, 
     },
   };
 
   return (
-    <div className="bg-white overflow-hidden">
+    <div className="whybg overflow-hidden">
       <div className="container mx-auto font-poppins">
         <div className="relative w-full h-svh flex flex-wrap justify-around items-center gap-x-50">
           {data?.map((item) => (
-            <div key={item.id} className={`w-1/4 relative ${item.id % 2 === 0 ? 'text-end' : ''}`}>
+            <div key={item.id} className={`w-1/4 relative ${item.id % 2 === 0 ? 'text-end' : ''}`} data-aos="zoom-in" data-aos-duration="500" data-aos-delay={`${item.id *200}`}>
               <h1 className="text-[160px] absolute top-0 left-0 font-black opacity-20 text-pink-800">{item.id}</h1>
               <h3 className="text-[30px] font-bold text-pink-800">{item.title}</h3>
               <p className="opacity-60">{item.textContent}</p>
@@ -58,6 +56,7 @@ const Why = () => {
             animate={inView ? 'visible' : 'hidden'}
             variants={imageVariants}
             className="absolute w-[50%]"
+            
             
           >
             <img src="images/ad.png" alt="" className="flower-shadow" />

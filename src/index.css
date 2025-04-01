@@ -27,3 +27,8 @@
 .flower-shadow {
   filter: drop-shadow(5px 15px 10px rgba(0, 0, 0, 0.158));
 }
+
+.whybg {
+  background: rgb(247,102,160);
+  background: radial-gradient(circle, rgba(247,102,160,0.340756285424326) 24%, rgba(247,102,160,0.7525209913066789) 55%); 
+}
