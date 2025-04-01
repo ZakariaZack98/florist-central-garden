@@ -29,7 +29,7 @@ const Testimony = ({ idCollections, imgCollections, nameCollections, textCollect
   console.log(imgCollections)
 
   return (
-    <div className="container mx-auto h-screen">
+    <div className="container mx-auto h-screen ">
       <div className="flex justify-center items-center h-full">
         <div className="flex flex-col items-center w-full">
           <h3 className="font-poppins text-3xl font-semibold">Testimonial</h3>
@@ -47,7 +47,7 @@ const Testimony = ({ idCollections, imgCollections, nameCollections, textCollect
               ))}
             </Slider>
             <div className="anim">
-            <img src="/images/testimonial.png" alt="" className="absolute top-0 left-20 w-50" data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="3000"/>
+            <img src="/images/testimonial.png" alt="" className="absolute top-0 left-20 w-50" data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="1000"/>
             <img src="/images/testimonial.png" alt="" className="absolute bottom-0 right-17 w-50 rotate-180" data-aos="zoom-in-right" data-aos-duration="1000"/>
             </div>
           </div>
