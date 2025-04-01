@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="relative overflow-hidden">
       <img src="/images/flower.avif" alt="" className=' rotate-[300deg] absolute top-0 -left-23' data-aos='zoom-in-right' data-aos-duration='2000'/>
-      <img src="/images/flower.avif" alt="" className=' rotate-[130deg] absolute z-20 top-77 -right-20' data-aos='zoom-in-right' data-aos-duration='2000'/>
+      <img src="/images/flower.avif" alt="" className=' rotate-[130deg] absolute z-0 top-77 -right-20' data-aos='zoom-in-right' data-aos-duration='2000'/>
       <div className='container mx-auto'>
       <div className="h-screen flex justify-center items-center ">
       <div className="left w-[60%]">

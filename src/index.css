@@ -15,10 +15,15 @@
 .slick-dots li button:before {
   position: relative;
   z-index: 20;
-  font-size: 15px !important; /* Force the font size to be larger */
-  transform: translateY(-15dvh); /* Ensure the color is applied */
+  font-size: 15px !important; 
+  transform: translateY(-15dvh); 
 }
 
 .slick-dots li.slick-active button:before {
-  color: #FF6F61 !important; /* Highlight active dot with a different color */
+  color: #FF6F61 !important; 
+}
+
+
+.flower-shadow {
+  filter: drop-shadow(5px 15px 10px rgba(0, 0, 0, 0.158));
 }

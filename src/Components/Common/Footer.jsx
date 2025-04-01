@@ -1,10 +1,9 @@
 import React from "react";
 import Logo from "/images/logo.png";
-import SocialIcons from "../Common/Socialicons";
-import Searchbar from "../Common/Searchbar";
+import SocialIcons from "./Socialicons";
+import Searchbar from "./Searchbar";
 import { useNavigate } from "react-router-dom";
-import { IoFlowerOutline } from "react-icons/io5";
-import FooterSec from "../Common/FooterSec";
+import FooterSec from "./FooterSec";
 import { FaLocationPin, FaPhone } from "react-icons/fa6";
 import { FaEnvelope } from "react-icons/fa";
 

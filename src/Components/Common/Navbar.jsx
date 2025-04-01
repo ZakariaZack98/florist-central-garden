@@ -3,12 +3,12 @@ import { CgShoppingCart } from 'react-icons/cg'
 import { GoHeart, GoPerson } from 'react-icons/go'
 import Logo from '/images/logo.png'
 import { useNavigate } from 'react-router-dom'
-import Searchbar from '../Common/Searchbar'
+import Searchbar from './Searchbar'
 
-const Navbar = () => {
+const Navbar = ({customized}) => {
   const navigate = useNavigate();
   return (
-    <div className='container mx-auto font-poppins text-sm max-h-15 -translate-y-5'>
+    <div className={`container mx-auto font-poppins text-sm max-h-15 ${customized ? 'h-0' : 'max-h-15 '} -translate-y-5`}>
       <div className="flex justify-between items-center">
         <Searchbar/>
         <div className="nav flex justify-center items-center gap-x-12">

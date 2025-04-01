@@ -1,5 +1,5 @@
 import React from 'react'
-import SocialIcons from '../Common/Socialicons'
+import SocialIcons from './Socialicons'
 import { FaEnvelope } from 'react-icons/fa'
 
 

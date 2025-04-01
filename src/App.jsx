@@ -3,6 +3,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './Pages/Home/Index'
 import AOS from "aos";
 import "aos/dist/aos.css";
+import CommonLayout from './Components/CommonLayout';
+import AboutPage from './Pages/About/AboutPage';
 
 const App = () => {
   useEffect(() => {
@@ -15,7 +17,10 @@ const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route index element={<Home/>}/>
+        <Route path='/' element={<CommonLayout/>}>
+          <Route index element={<Home/>}/>
+          <Route path='/About' element={<AboutPage/>}/>
+        </Route>
       </Routes>
     </BrowserRouter>
   )

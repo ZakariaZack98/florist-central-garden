@@ -30,12 +30,13 @@ const TestimonialSlide = ({ idCollections, imgUrlCollection, nameCollection, tex
             key={idx}
             src={url}
             className={`absolute cursor-pointer object-cover object-center 
-            ${activePerson == idx ? ' scale-150 duration-200 ease-in-out shadow-md border-4 border-pink-300' : ''}
+            ${activePerson == idx ? ' scale-150 duration-200 ease-in-out shadow-md border-8 border-pink-300' : ''}
             ${idx == 0 ? 'w-18 h-18 rounded-full bottom-10 left-35' : ''}
             ${idx == 1 ? 'w-15 h-15 rounded-full top-20 left-80' : ''}
             ${idx == 2 ? 'w-18 h-18 rounded-full top-10 left-150' : ''}
             ${idx == 3 ? 'w-15 h-15 rounded-full top-20 right-76' : ''}
             ${idx == 4 ? 'w-18 h-18 rounded-full bottom-30 right-50' : ''}`}
+            // !! w and h should be according to viewport
             onClick={() => setActivePerson(idx)}
             animate="floating" 
             variants={floatingVariants}
