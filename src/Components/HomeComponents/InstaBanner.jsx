@@ -15,7 +15,6 @@ const InstaBanner = () => {
             <img key={idx} src={url} className="w-60 h-60 object-center object-cover" />
           ))
         }
-        {/* Insta Logo */}
         <div className="instaLogo absolute overflow-hidden h-[50%] w-35 bg-[#b8b8b8] flex flex-col z-10 cursor-pointer opacity-0 scale-75 group-hover:opacity-100 group-hover:scale-100 transition-all duration-500 ease-in-out">
           <span className="h-3/4 flex justify-center items-center text-4xl translate-y-4 group-hover:translate-y-0 transition-all duration-500 ease-in-out">
             <FaInstagram />
@@ -24,7 +23,6 @@ const InstaBanner = () => {
             <span>FOLLOW</span>
           </div>
         </div>
-        {/* Insta Overlay */}
         <div className="instaOverlay absolute w-240 h-full top-0 left-[12.5%] bg-[#000000a6] z-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out"></div>
       </div>
     </div>

@@ -3,16 +3,14 @@ import { CgShoppingCart } from 'react-icons/cg'
 import { GoHeart, GoPerson } from 'react-icons/go'
 import Logo from '/images/logo.png'
 import { useNavigate } from 'react-router-dom'
+import Searchbar from '../Common/Searchbar'
 
 const Navbar = () => {
   const navigate = useNavigate();
   return (
     <div className='container mx-auto font-poppins text-sm max-h-15 -translate-y-5'>
       <div className="flex justify-between items-center">
-        <div className="search flex justify-between p-1 border-2 border-black bg-white max-w-1/6">
-          <input type="text" placeholder='Search here' className='w-1/2'/>
-          <button className='px-4 py-1 bg-black text-white'>Search</button>
-        </div>
+        <Searchbar/>
         <div className="nav flex justify-center items-center gap-x-12">
           {
             ['Home', 'About', Logo, 'Gallery', 'Contact'].map((item, idx) => {

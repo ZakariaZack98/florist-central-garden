@@ -8,6 +8,7 @@ import Testimony from "../../Components/HomeComponents/Testimony";
 import { getTestimonialData } from "../../lib/lib";
 import { useNavigate } from "react-router-dom";
 import InstaBanner from "../../Components/HomeComponents/InstaBanner";
+import Footer from "../../Components/HomeComponents/Footer";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -33,6 +34,7 @@ const Home = () => {
       <img src="/images/pb.png" alt="" className="cursor-pointer" onClick={() => navigate('/shop')}/>
       </div>
       <InstaBanner/>
+      <Footer/>
     </div>
   );
 };
