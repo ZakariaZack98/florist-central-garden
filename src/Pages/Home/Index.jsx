@@ -3,6 +3,7 @@ import Socials from "../../Components/HomeComponents/Socials";
 import Navbar from "../../Components/HomeComponents/Navbar";
 import Hero from "../../Components/HomeComponents/Hero";
 import About from "../../Components/HomeComponents/About";
+import Featured from "../../Components/HomeComponents/Featured";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
         <Hero />
       </div>
       <About/>
+      <Featured/>
     </div>
   );
 };
