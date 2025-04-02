@@ -5,6 +5,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import CommonLayout from './Components/CommonLayout';
 import AboutPage from './Pages/About/AboutPage';
+import Demo from './Pages/Demo/Demo';
+import Shop from './Pages/Shop/Shop';
 
 const App = () => {
   useEffect(() => {
@@ -21,6 +23,11 @@ const App = () => {
           <Route index element={<Home/>}/>
           <Route path='/About' element={<AboutPage/>}/>
         </Route>
+        <Route path='/Gallery' element={<CommonLayout/>}>
+          <Route index element={<Shop/>}/>
+          
+        </Route>
+        <Route path='/demo' element={<Demo/>}/>
       </Routes>
     </BrowserRouter>
   )
