@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { getFlowerData } from '../../lib/lib'
 import ProductCard from '../../Components/Common/ProductCard';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Shop = () => {
   const flowersData = getFlowerData();
@@ -17,6 +19,7 @@ const Shop = () => {
 
   useEffect(() => {
     activeCat === 'All' ? setShowingData(flowersData) : setShowingData(flowersData.filter(flower => flower.category === activeCat))
+    AOS.refresh();
   }, [activeCat])
 
   return (

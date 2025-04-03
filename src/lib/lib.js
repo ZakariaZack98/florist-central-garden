@@ -160,7 +160,7 @@ export const getFlowerData = () => {
       name: 'Red Tulips',
       imgUrl: 'https://darbycreektrading.com/cdn/shop/files/FLWSTM1786_1_DeepRedMiniSilkTulipsFauxFlora_1080x.jpg?v=1706826297',
       category: 'Tulips',
-      desc: 'Non velit qui magna nisi velit laboris id magna nulla pariatur ipsum occaecat sit.',
+      desc: 'Majestic red tulips are symbol of love and youth.',
       price: 12.90,
       bundleSize: Math.floor(Math.random() * (20 - 5 + 1)) + 5, 
     },

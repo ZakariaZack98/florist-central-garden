@@ -7,6 +7,7 @@ import CommonLayout from './Components/CommonLayout';
 import AboutPage from './Pages/About/AboutPage';
 import Demo from './Pages/Demo/Demo';
 import Shop from './Pages/Shop/Shop';
+import Contact from './Pages/Contact/Contact';
 
 const App = () => {
   useEffect(() => {
@@ -22,6 +23,7 @@ const App = () => {
         <Route path='/' element={<CommonLayout/>}>
           <Route index element={<Home/>}/>
           <Route path='/About' element={<AboutPage/>}/>
+          <Route path='/Contact' element={<Contact/>}/>
         </Route>
         <Route path='/Gallery' element={<CommonLayout/>}>
           <Route index element={<Shop/>}/>
