@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { getFlowerData } from '../../lib/lib'
+import ProductCard from '../../Components/Common/ProductCard';
 
 const Shop = () => {
   const flowersData = getFlowerData();
@@ -31,7 +32,15 @@ const Shop = () => {
           ))
         }
       </div>
-      <div className="productGrid">
+      <div className="productGrid flex flex-wrap justify-between items-center h-fit overflow-hidden py-20">
+        <ProductCard/>
+        <ProductCard/>
+        <ProductCard/>
+        <ProductCard/>
+        <ProductCard/>
+        <ProductCard/>
+        <ProductCard/>
+        <ProductCard/>
       </div>
     </div>
   )
