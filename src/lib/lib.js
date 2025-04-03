@@ -162,6 +162,7 @@ export const getFlowerData = () => {
       category: 'Tulips',
       desc: 'Non velit qui magna nisi velit laboris id magna nulla pariatur ipsum occaecat sit.',
       price: 12.90,
+      bundleSize: Math.floor(Math.random() * (20 - 5 + 1)) + 5, // Random value between 5 and 20
     },
     {
       pid: 10021,
@@ -170,6 +171,7 @@ export const getFlowerData = () => {
       category: 'Tulips',
       desc: 'Bright and cheerful yellow tulips to brighten your day.',
       price: 13.50,
+      bundleSize: Math.floor(Math.random() * (20 - 5 + 1)) + 5,
     },
     {
       pid: 10022,
@@ -178,6 +180,7 @@ export const getFlowerData = () => {
       category: 'Tulips',
       desc: 'Soft pink tulips perfect for expressing love and admiration.',
       price: 14.00,
+      bundleSize: Math.floor(Math.random() * (20 - 5 + 1)) + 5,
     },
     {
       pid: 10023,
@@ -186,6 +189,7 @@ export const getFlowerData = () => {
       category: 'Tulips',
       desc: 'Elegant white tulips symbolizing purity and peace.',
       price: 12.50,
+      bundleSize: Math.floor(Math.random() * (20 - 5 + 1)) + 5,
     },
     {
       pid: 10024,
@@ -194,6 +198,7 @@ export const getFlowerData = () => {
       category: 'Tulips',
       desc: 'Majestic purple tulips for a touch of royalty.',
       price: 15.00,
+      bundleSize: Math.floor(Math.random() * (20 - 5 + 1)) + 5,
     },
     {
       pid: 10025,
@@ -202,6 +207,7 @@ export const getFlowerData = () => {
       category: 'Roses',
       desc: 'Classic red roses to express deep love and passion.',
       price: 20.00,
+      bundleSize: Math.floor(Math.random() * (20 - 5 + 1)) + 5,
     },
     {
       pid: 10026,
@@ -210,6 +216,7 @@ export const getFlowerData = () => {
       category: 'Roses',
       desc: 'Elegant white roses symbolizing purity and innocence.',
       price: 18.50,
+      bundleSize: Math.floor(Math.random() * (20 - 5 + 1)) + 5,
     },
     {
       pid: 10027,
@@ -218,6 +225,7 @@ export const getFlowerData = () => {
       category: 'Roses',
       desc: 'Delicate pink roses for a touch of romance.',
       price: 19.00,
+      bundleSize: Math.floor(Math.random() * (20 - 5 + 1)) + 5,
     },
     {
       pid: 10028,
@@ -226,6 +234,7 @@ export const getFlowerData = () => {
       category: 'Roses',
       desc: 'Vibrant yellow roses to symbolize friendship and joy.',
       price: 17.50,
+      bundleSize: Math.floor(Math.random() * (20 - 5 + 1)) + 5,
     },
     {
       pid: 10029,
@@ -234,6 +243,7 @@ export const getFlowerData = () => {
       category: 'Roses',
       desc: 'Fiery orange roses to express enthusiasm and energy.',
       price: 21.00,
+      bundleSize: Math.floor(Math.random() * (20 - 5 + 1)) + 5,
     },
     {
       pid: 10030,
@@ -242,6 +252,7 @@ export const getFlowerData = () => {
       category: 'Sunflowers',
       desc: 'Bright and bold sunflowers to bring warmth and happiness.',
       price: 10.00,
+      bundleSize: Math.floor(Math.random() * (20 - 5 + 1)) + 5,
     },
     {
       pid: 10031,
@@ -250,6 +261,7 @@ export const getFlowerData = () => {
       category: 'Sunflowers',
       desc: 'Adorable mini sunflowers perfect for small arrangements.',
       price: 8.50,
+      bundleSize: Math.floor(Math.random() * (20 - 5 + 1)) + 5,
     },
     {
       pid: 10032,
@@ -258,6 +270,7 @@ export const getFlowerData = () => {
       category: 'Sunflowers',
       desc: 'Golden sunflowers to brighten any room.',
       price: 11.00,
+      bundleSize: Math.floor(Math.random() * (20 - 5 + 1)) + 5,
     },
     {
       pid: 10033,
@@ -266,6 +279,7 @@ export const getFlowerData = () => {
       category: 'Sunflowers',
       desc: 'Large sunflowers for a bold and beautiful statement.',
       price: 12.00,
+      bundleSize: Math.floor(Math.random() * (20 - 5 + 1)) + 5,
     },
     {
       pid: 10034,
@@ -274,6 +288,7 @@ export const getFlowerData = () => {
       category: 'Sunflowers',
       desc: 'A mix of sunflowers for a vibrant bouquet.',
       price: 13.00,
+      bundleSize: Math.floor(Math.random() * (20 - 5 + 1)) + 5,
     },
     {
       pid: 10035,
@@ -282,6 +297,7 @@ export const getFlowerData = () => {
       category: 'Lilies',
       desc: 'Elegant white lilies symbolizing purity and devotion.',
       price: 22.00,
+      bundleSize: Math.floor(Math.random() * (20 - 5 + 1)) + 5,
     },
     {
       pid: 10036,
@@ -290,6 +306,7 @@ export const getFlowerData = () => {
       category: 'Lilies',
       desc: 'Beautiful pink lilies for a touch of elegance.',
       price: 23.50,
+      bundleSize: Math.floor(Math.random() * (20 - 5 + 1)) + 5,
     },
     {
       pid: 10037,
@@ -298,6 +315,7 @@ export const getFlowerData = () => {
       category: 'Lilies',
       desc: 'Bright yellow lilies to bring joy and happiness.',
       price: 21.00,
+      bundleSize: Math.floor(Math.random() * (20 - 5 + 1)) + 5,
     },
     {
       pid: 10038,
@@ -306,6 +324,7 @@ export const getFlowerData = () => {
       category: 'Lilies',
       desc: 'Vibrant orange lilies for a bold statement.',
       price: 24.00,
+      bundleSize: Math.floor(Math.random() * (20 - 5 + 1)) + 5,
     },
     {
       pid: 10039,
@@ -314,6 +333,7 @@ export const getFlowerData = () => {
       category: 'Lilies',
       desc: 'A mix of lilies for a stunning bouquet.',
       price: 25.00,
+      bundleSize: Math.floor(Math.random() * (20 - 5 + 1)) + 5,
     },
     {
       pid: 10040,
@@ -322,6 +342,7 @@ export const getFlowerData = () => {
       category: 'Orchids',
       desc: 'Elegant white orchids symbolizing beauty and grace.',
       price: 30.00,
+      bundleSize: Math.floor(Math.random() * (20 - 5 + 1)) + 5,
     },
     {
       pid: 10041,
@@ -330,6 +351,7 @@ export const getFlowerData = () => {
       category: 'Orchids',
       desc: 'Delicate pink orchids for a touch of sophistication.',
       price: 32.00,
+      bundleSize: Math.floor(Math.random() * (20 - 5 + 1)) + 5,
     },
     {
       pid: 10042,
@@ -338,6 +360,7 @@ export const getFlowerData = () => {
       category: 'Orchids',
       desc: 'Majestic purple orchids for a royal touch.',
       price: 35.00,
+      bundleSize: Math.floor(Math.random() * (20 - 5 + 1)) + 5,
     },
     {
       pid: 10043,
@@ -346,6 +369,7 @@ export const getFlowerData = () => {
       category: 'Orchids',
       desc: 'Bright yellow orchids to bring joy and warmth.',
       price: 28.00,
+      bundleSize: Math.floor(Math.random() * (20 - 5 + 1)) + 5,
     },
     {
       pid: 10044,
@@ -354,6 +378,7 @@ export const getFlowerData = () => {
       category: 'Orchids',
       desc: 'A mix of orchids for a stunning arrangement.',
       price: 33.00,
+      bundleSize: Math.floor(Math.random() * (20 - 5 + 1)) + 5,
     },
   ];
 };

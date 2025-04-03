@@ -32,7 +32,7 @@ const Shop = () => {
           ))
         }
       </div>
-      <div className="productGrid flex flex-wrap justify-between items-center h-fit overflow-hidden py-20">
+      <div className="productGrid flex flex-wrap justify-between items-center gap-10 h-fit overflow-hidden py-20">
         <ProductCard/>
         <ProductCard/>
         <ProductCard/>
