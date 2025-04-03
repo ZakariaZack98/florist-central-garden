@@ -34,9 +34,9 @@ const Shop = () => {
           ))
         }
       </div>
-      <div className="productGrid flex flex-wrap justify-between items-center gap-10 h-fit overflow-hidden py-20">
+      <div className="productGrid flex flex-wrap justify-evenly items-center gap-y-10 h-fit overflow-hidden py-20">
         {
-          showingData.map(flower => <ProductCard key={flower.pid} pid={flower.pid} imgUrl={flower.imgUrl} name={flower.name} bundleSize={flower.bundleSize} price={flower.price}/>)
+          showingData.map(flower => <ProductCard key={flower.pid} pid={flower.pid} imgUrl={flower.imgUrl} name={flower.name} desc={flower.desc} bundleSize={flower.bundleSize} price={flower.price}/>)
         }
       </div>
     </div>
