@@ -21,7 +21,7 @@ const About = () => {
         <h2 className="font-poppins text-3xl">Our Journey</h2>
           <h1 className="font-rochester text-[70px]">About Us</h1>
           <h3 className="font-poppins ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit repudiandae inventore odit sed saepe minima, doloribus fugit cum iure! Odio debitis praesentium maxime accusamus. Quaerat illo deleniti rem neque dolores?</h3>
-          <ButtonPrimary label={"Learn More"} link={"/about"} />
+          <ButtonPrimary label={"Learn More"} path={"/About"} />
         </div>
       </div>
       </div>

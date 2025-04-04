@@ -48,7 +48,7 @@ const Hero = () => {
           <h2 className="font-poppins text-3xl">New Flowers</h2>
           <h1 className="font-rochester text-[70px]">For Wedding Day</h1>
           <h3 className="font-poppins text-2xl">Exclusive offer -10% for this week</h3>
-          <ButtonPrimary label={"Shop Now"} link={"/shop"} />
+          <ButtonPrimary label={"Shop Now"} path={"/Gallery"} />
         </motion.div>
         <div className="right w-[60%] flex justify-end">
           {[Hero1, Hero2, Hero3].map((src, idx, arr) => (
