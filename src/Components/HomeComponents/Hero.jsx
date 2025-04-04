@@ -38,7 +38,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="container mx-auto pt-20 pb-30">
+    <div className="container mx-auto pt-[13dvh] pb-30">
       <div className="flex justify-between items-center">
         <motion.div
           className="left w-[40%] flex flex-col justify-center gap-y-6"
